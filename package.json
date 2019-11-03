@@ -1,0 +1,49 @@
+{
+  "name": "seelk-hacking-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel src/app/index.html",
+    "server": "node ./src/server/index.js",
+    "build-prod": "parcel build src/app/index.html"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "coinapi-io": "^1.0.2",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-route": "^3.2.0",
+    "mailgun-js": "^0.22.0",
+    "timestring": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "mobx": "^4.13.1 || ^5.13.1",
+    "mobx-react": "^6.1.4",
+    "mobx-utils": "^5.5.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.18.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-select": "^3.0.8",
+    "reactabular": "^8.3.0",
+    "reactabular-table": "^8.14.0",
+    "sass": "^1.23.3",
+    "uuid": "^3.3.3"
+  }
+}

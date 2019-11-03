@@ -1,0 +1,56 @@
+.currencyValue {
+  float: right;
+  opacity: 0.4;
+}
+
+.selectOption {
+  transition: background 0.1s;
+  &:hover {
+    background-color: #b9b9b9;
+  }
+}
+
+input[type="radio"] {
+  cursor: pointer;
+}
+
+.inputContainer {
+  display: flex;
+
+  > * {
+    margin: 0 1em;
+  }
+  > *:first-child {
+    margin-left: 0;
+  }
+  > *:last-child {
+    margin-right: 0;
+  }
+
+  .mailInput {
+    flex: 1;
+  }
+
+  .select {
+    flex: 2;
+  }
+}
+
+.checkContainer {
+  margin: 1em;
+  .checkInputContainer {
+    display: flex;
+    .thresholdInput,
+    .timeframeInput {
+      height: 34px;
+      width: 100%;
+      margin: 1em;
+    }
+  }
+}
+
+.submitForm {
+  margin: 0 auto;
+  display: block;
+  font-size: 1em;
+}
